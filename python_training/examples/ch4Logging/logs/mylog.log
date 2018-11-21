@@ -1,0 +1,64 @@
+2018-11-20 14:41:00,159 - root - CRITICAL - l1 : 12 - test
+2018-11-20 14:42:43,160 - myOtherLogger - CRITICAL - l1 : 12 - test this works
+2018-11-20 14:45:07,434 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+2018-11-20 14:45:36,207 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+
+
+
+2018-11-20 14:45:40,828 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+2018-11-20 14:46:09,832 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+2018-11-20 14:46:30,026 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+
+
+2018-11-20 14:46:51,536 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+2018-11-20 14:47:15,591 - root - CRITICAL - l1 : 14 - a critical thing
+
+
+
+2018-11-20 14:47:41,238 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+2018-11-20 14:47:54,983 - myOtherLogger - INFO - l1 : 12 - its nearly tea
+2018-11-20 14:47:54,984 - myOtherLogger - WARNING - l1 : 13 - warning
+2018-11-20 14:47:54,984 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+
+
+
+
+
+
+
+2018-11-20 14:48:11,518 - myOtherLogger - INFO - l1 : 12 - its nearly tea
+2018-11-20 14:48:11,518 - myOtherLogger - WARNING - l1 : 13 - warning
+2018-11-20 14:48:11,518 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+
+
+
+
+
+
+2018-11-20 14:48:48,104 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+
+
+2018-11-20 14:48:56,359 - myOtherLogger - INFO - l1 : 12 - its nearly tea
+2018-11-20 14:48:56,359 - myOtherLogger - WARNING - l1 : 13 - warning
+2018-11-20 14:48:56,359 - myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+
+
+2018-11-20 14:53:04,589 - logger_myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+
+
+
+
+2018-11-20 14:53:14,999 - logger_myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+2018-11-20 14:54:43,082 - logger_myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+
+2018-11-20 14:58:42,224 - logger_myOtherLogger - INFO - l1 : 12 - its nearly tea
+2018-11-20 14:58:42,224 - logger_myOtherLogger - WARNING - l1 : 13 - warning
+2018-11-20 14:58:42,224 - logger_myOtherLogger - CRITICAL - l1 : 14 - a critical thing
+2018-11-20 15:22:05,742 - logger_myOtherLogger - CRITICAL - l1 : 13 - a critical thing
+2018-11-20 15:25:24,724 - logger_myOtherLogger - CRITICAL - l1 : 16 - a critical thing
+2018-11-20 15:25:43,457 - /Users/adam/repos/training/python-training/python_training/examples/ch4Logging/logging.conf - CRITICAL - l1 : 16 - a critical thing
+
+
+2018-11-20 15:26:06,765 - logger_myOtherLogger - CRITICAL - l1 : 16 - a critical thing
+2018-11-20 15:30:58,797 - logger_myOtherLogger - CRITICAL - l1 : 16 - a critical thing
+2018-11-20 15:31:08,494 - logger_myOtherLogger - CRITICAL - l1 : 16 - a critical thing
