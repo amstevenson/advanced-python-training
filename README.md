@@ -28,10 +28,9 @@ For running the outside flask application:
 6) set FLASK_APP variable with
     `set FLASK_APP=manage.py` (for windows)
     or `export FLASK_APP=manage.py` (for mac)
-7) flask run
+7) (optional) Set port with `set FLASK_RUN_PORT xxxx`
 8) If any issues, can run `export FLASK_DEBUG=1` to debug
-
-### Random kitten and weather requests using forms
+9) flask run
 
 ### Example ORM requests (using 'game' blueprint/routes)
 
