@@ -8,11 +8,7 @@ up some routes on this custom project I have made.
 
 Game route (ORM etc) encompasses me playing around with ORM and is separate to the course. 
 
-## Running
-
-For running the outside flask application:
-
-### Virtualenv
+## Running in Virtualenv
 
 1) Virtualenv venv
 2) source venv/Scripts/activate - for windows 
@@ -32,12 +28,12 @@ For running the outside flask application:
 8) If any issues, can run `export FLASK_DEBUG=1` to debug
 9) flask run
 
-### Example ORM requests (using 'game' blueprint/routes)
+## Example ORM requests (using 'game' blueprint/routes)
 
-## Add a  game
+### Add a  game
 
 `curl -X POST -d '{"name": "ok", "rating": "6", "genre": "test"}' -H 'Content-Type: application/json' http://localhost:5000/add-game`
 
-## Get all games 
+### Get all games 
 
 `curl localhost:5000/all-games`
