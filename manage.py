@@ -1,5 +1,5 @@
 from flask_script import Manager, Server
-from python_training.main import app
+from advanced_python_training.main import app
 
 manager = Manager(app)
 manager.add_command("runserver", Server())

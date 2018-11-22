@@ -1,0 +1,326 @@
+2018-11-21 11:12:06,331 - logger_myOtherLogger - INFO - category_api_client : 28 - Getting categories unthreaded
+2018-11-21 11:12:06,331 - logger_myOtherLogger - DEBUG - category_api_client : 30 - Getting planet number 1 name
+2018-11-21 11:12:07,090 - logger_myOtherLogger - DEBUG - category_api_client : 32 - Planet number 1 name is: Tatooine
+2018-11-21 11:12:07,091 - logger_myOtherLogger - DEBUG - category_api_client : 30 - Getting planet number 2 name
+2018-11-21 11:12:07,959 - logger_myOtherLogger - DEBUG - category_api_client : 32 - Planet number 2 name is: Alderaan
+2018-11-21 11:12:07,959 - logger_myOtherLogger - DEBUG - category_api_client : 30 - Getting planet number 3 name
+2018-11-21 11:12:09,068 - logger_myOtherLogger - DEBUG - category_api_client : 32 - Planet number 3 name is: Yavin IV
+2018-11-21 11:12:09,068 - logger_myOtherLogger - INFO - category_api_client : 36 - Unthreaded Categories received in 2.7376978397369385 seconds 
+
+2018-11-21 11:12:09,068 - logger_myOtherLogger - INFO - category_api_client : 38 - Getting categories threaded
+2018-11-21 11:12:09,068 - logger_myOtherLogger - INFO - category_api_client : 42 - Getting categories unthreaded
+2018-11-21 11:12:10,177 - logger_myOtherLogger - INFO - category_api_client : 60 - Threaded Categories received in 1.1081840991973877 seconds 
+
+2018-11-21 11:14:33,948 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 11:14:33,948 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 11:14:35,208 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 11:14:35,208 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 11:14:36,436 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 11:14:36,436 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 11:14:37,664 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 11:14:37,664 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 3.716360092163086 seconds 
+
+2018-11-21 11:14:37,664 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 11:14:38,879 - logger_myOtherLogger - INFO - main : 42 - Threaded Categories received in 1.2142949104309082 seconds 
+
+2018-11-21 11:15:46,866 - logger_myOtherLogger - INFO - main : 13 - Getting categories unthreaded
+2018-11-21 11:15:46,866 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 1 name
+2018-11-21 11:15:47,971 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 1 name is: Tatooine
+2018-11-21 11:15:47,971 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 2 name
+2018-11-21 11:15:49,096 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 2 name is: Alderaan
+2018-11-21 11:15:49,097 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 3 name
+2018-11-21 11:15:50,326 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 3 name is: Yavin IV
+2018-11-21 11:15:50,326 - logger_myOtherLogger - INFO - main : 21 - Unthreaded Categories received in 3.460150957107544 seconds 
+
+2018-11-21 11:15:50,326 - logger_myOtherLogger - INFO - main : 23 - Getting categories threaded
+2018-11-21 11:15:51,461 - logger_myOtherLogger - INFO - main : 44 - Threaded Categories received in 1.1347200870513916 seconds 
+
+2018-11-21 11:16:28,705 - logger_myOtherLogger - INFO - main : 13 - Getting categories unthreaded
+2018-11-21 11:16:28,705 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 1 name
+2018-11-21 11:16:29,169 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 1 name is: Tatooine
+2018-11-21 11:16:29,169 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 2 name
+2018-11-21 11:16:30,236 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 2 name is: Alderaan
+2018-11-21 11:16:30,237 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 3 name
+2018-11-21 11:16:31,033 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 3 name is: Yavin IV
+2018-11-21 11:16:31,033 - logger_myOtherLogger - INFO - main : 21 - Unthreaded Categories received in 2.3284401893615723 seconds 
+
+2018-11-21 11:16:31,033 - logger_myOtherLogger - INFO - main : 23 - Getting categories threaded
+2018-11-21 11:16:31,034 - logger_myOtherLogger - DEBUG - category_thread : 14 - Getting category number 1 name
+2018-11-21 11:16:31,035 - logger_myOtherLogger - DEBUG - category_thread : 14 - Getting category number 2 name
+2018-11-21 11:16:31,036 - logger_myOtherLogger - DEBUG - category_thread : 14 - Getting category number 3 name
+2018-11-21 11:16:31,753 - logger_myOtherLogger - DEBUG - category_thread : 16 - category number 3 name is: Yavin IV
+2018-11-21 11:16:31,985 - logger_myOtherLogger - DEBUG - category_thread : 16 - category number 2 name is: Alderaan
+2018-11-21 11:16:31,998 - logger_myOtherLogger - DEBUG - category_thread : 16 - category number 1 name is: Tatooine
+2018-11-21 11:16:31,998 - logger_myOtherLogger - INFO - main : 44 - Threaded Categories received in 0.9643230438232422 seconds 
+
+2018-11-21 11:22:19,691 - logger_myOtherLogger - INFO - main : 13 - Getting categories unthreaded
+2018-11-21 11:22:19,691 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 1 name
+2018-11-21 11:22:20,850 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 1 name is: Tatooine
+2018-11-21 11:22:20,851 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 2 name
+2018-11-21 11:22:21,670 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 2 name is: Alderaan
+2018-11-21 11:22:21,670 - logger_myOtherLogger - DEBUG - main : 15 - Getting planet number 3 name
+2018-11-21 11:22:22,590 - logger_myOtherLogger - DEBUG - main : 17 - Planet number 3 name is: Yavin IV
+2018-11-21 11:22:22,590 - logger_myOtherLogger - INFO - main : 21 - Unthreaded Categories received in 2.89949893951416 seconds 
+
+2018-11-21 11:22:22,590 - logger_myOtherLogger - INFO - main : 23 - Getting categories threaded
+2018-11-21 11:22:22,590 - logger_myOtherLogger - DEBUG - category_thread : 28 - Getting category number 1 name
+2018-11-21 11:22:22,592 - logger_myOtherLogger - DEBUG - category_thread : 28 - Getting category number 2 name
+2018-11-21 11:22:22,593 - logger_myOtherLogger - DEBUG - category_thread : 28 - Getting category number 3 name
+2018-11-21 11:22:23,674 - logger_myOtherLogger - DEBUG - category_thread : 30 - category number 2 name is: Alderaan
+2018-11-21 11:22:23,870 - logger_myOtherLogger - DEBUG - category_thread : 30 - category number 3 name is: Yavin IV
+2018-11-21 11:22:23,927 - logger_myOtherLogger - DEBUG - category_thread : 30 - category number 1 name is: Tatooine
+2018-11-21 11:22:23,928 - logger_myOtherLogger - INFO - main : 44 - Threaded Categories received in 1.3373959064483643 seconds 
+
+2018-11-21 11:29:25,330 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 11:29:25,330 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 11:29:26,478 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 11:29:26,478 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 11:29:27,707 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 11:29:27,710 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 11:29:28,832 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 11:29:28,832 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 3.5019891262054443 seconds 
+
+2018-11-21 11:29:28,832 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 11:29:28,832 - logger_myOtherLogger - DEBUG - category_thread : 28 - Getting category number 1 name
+2018-11-21 11:29:28,833 - logger_myOtherLogger - DEBUG - category_thread : 28 - Getting category number 2 name
+2018-11-21 11:29:28,835 - logger_myOtherLogger - DEBUG - category_thread : 28 - Getting category number 3 name
+2018-11-21 11:29:29,963 - logger_myOtherLogger - DEBUG - category_thread : 30 - category number 3 name is: Yavin IV
+2018-11-21 11:29:29,963 - logger_myOtherLogger - DEBUG - category_thread : 30 - category number 2 name is: Alderaan
+2018-11-21 11:29:29,964 - logger_myOtherLogger - DEBUG - category_thread : 30 - category number 1 name is: Tatooine
+2018-11-21 11:29:29,964 - logger_myOtherLogger - INFO - main : 42 - Threaded Categories received in 1.1317880153656006 seconds 
+
+2018-11-21 11:53:29,377 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 11:53:29,377 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 11:53:30,249 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 11:53:30,249 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 11:53:31,300 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 11:53:31,300 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 11:53:32,370 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 11:53:32,370 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 2.9929211139678955 seconds 
+
+2018-11-21 11:53:32,370 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 11:53:32,371 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting category number 1 name
+2018-11-21 11:53:32,372 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting category number 2 name
+2018-11-21 11:53:32,372 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting category number 3 name
+2018-11-21 11:53:32,782 - logger_myOtherLogger - DEBUG - category_thread : 34 - category number 1 name is: Tatooine
+2018-11-21 11:53:33,083 - logger_myOtherLogger - DEBUG - category_thread : 34 - category number 3 name is: Yavin IV
+2018-11-21 11:53:33,117 - logger_myOtherLogger - DEBUG - category_thread : 34 - category number 2 name is: Alderaan
+2018-11-21 11:53:33,118 - logger_myOtherLogger - INFO - main : 42 - Threaded Categories received in 0.7473361492156982 seconds 
+
+2018-11-21 11:54:17,058 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 11:54:17,058 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 11:54:18,171 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 11:54:18,172 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 11:54:19,296 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 11:54:19,296 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 11:54:20,423 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 11:54:20,423 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 3.3646080493927 seconds 
+
+2018-11-21 11:54:20,423 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 11:54:20,423 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 11:54:20,424 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 11:54:20,426 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 11:54:21,223 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 11:54:21,550 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 11:54:21,550 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 11:54:21,550 - logger_myOtherLogger - INFO - main : 42 - Threaded Categories received in 1.1270880699157715 seconds 
+
+2018-11-21 11:56:01,365 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 11:56:01,365 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 11:56:02,388 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 11:56:02,388 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 11:56:03,172 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 11:56:03,172 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 11:56:04,153 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 11:56:04,153 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 2.788857936859131 seconds 
+
+2018-11-21 11:56:04,154 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 11:56:04,154 - logger_myOtherLogger - DEBUG - category_thread : 31 - Getting planet number 1 name
+2018-11-21 11:56:04,155 - logger_myOtherLogger - DEBUG - category_thread : 31 - Getting planet number 2 name
+2018-11-21 11:56:04,155 - logger_myOtherLogger - DEBUG - category_thread : 31 - Getting planet number 3 name
+2018-11-21 11:56:05,422 - logger_myOtherLogger - INFO - main : 42 - Threaded Categories received in 1.2683110237121582 seconds 
+
+2018-11-21 11:56:29,512 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 11:56:29,512 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 11:56:30,599 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 11:56:30,600 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 11:56:31,723 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 11:56:31,723 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 11:56:32,848 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 11:56:32,848 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 3.336862802505493 seconds 
+
+2018-11-21 11:56:32,849 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 11:56:32,849 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 11:56:32,850 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 11:56:32,851 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 11:56:33,661 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 11:56:33,880 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 11:56:33,940 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 11:56:33,940 - logger_myOtherLogger - INFO - main : 42 - Threaded Categories received in 1.0914230346679688 seconds 
+
+2018-11-21 11:57:02,563 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 11:57:02,563 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 11:57:03,329 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 11:57:03,330 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 11:57:04,369 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 11:57:04,369 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 11:57:05,496 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 11:57:05,496 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 2.933866024017334 seconds 
+
+2018-11-21 11:57:05,497 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 11:57:05,497 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 11:57:05,500 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 11:57:05,501 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 11:57:06,625 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 11:57:06,628 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 11:57:06,630 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 11:57:06,631 - logger_myOtherLogger - INFO - main : 43 - Threaded Categories received in 1.1343519687652588 seconds 
+
+2018-11-21 12:03:19,139 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 12:03:19,139 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 12:03:20,151 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 12:03:20,152 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 12:03:21,282 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 12:03:21,282 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 12:03:22,817 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 12:03:22,817 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 3.6784191131591797 seconds 
+
+2018-11-21 12:03:22,817 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 12:03:22,818 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 12:03:22,819 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 12:03:22,820 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 12:03:22,822 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 4 name
+2018-11-21 12:03:23,946 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 12:03:23,983 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 4 name is: Hoth
+2018-11-21 12:03:24,038 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 12:03:24,066 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 12:03:24,067 - logger_myOtherLogger - INFO - main : 42 - Threaded Categories received in 1.2488930225372314 seconds 
+
+2018-11-21 12:04:39,336 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 12:04:39,337 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 12:04:40,903 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 12:04:40,903 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 12:04:41,825 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 12:04:41,825 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 12:04:43,053 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 12:04:43,053 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 3.716792106628418 seconds 
+
+2018-11-21 12:04:43,053 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 12:04:43,054 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 12:04:43,055 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 12:04:43,056 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 12:04:43,059 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 1 name
+2018-11-21 12:04:43,059 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 2 name
+2018-11-21 12:04:43,061 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 3 name
+2018-11-21 12:04:45,405 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 1 name is: Tatooine
+2018-11-21 12:04:45,449 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 12:04:45,622 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 12:04:45,705 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 2 name is: Alderaan
+2018-11-21 12:04:45,761 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 12:04:45,876 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 3 name is: Yavin IV
+2018-11-21 12:04:45,876 - logger_myOtherLogger - INFO - main : 51 - Threaded Categories received in 2.8224549293518066 seconds 
+
+2018-11-21 12:05:29,216 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 12:05:29,216 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 12:05:30,436 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 12:05:30,436 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 12:05:31,663 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 12:05:31,664 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 12:05:32,488 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 12:05:32,488 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 3.272094964981079 seconds 
+
+2018-11-21 12:05:32,488 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 12:05:32,489 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 12:05:32,489 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 12:05:32,489 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 12:05:32,495 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 4 name
+2018-11-21 12:05:32,502 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 5 name
+2018-11-21 12:05:32,503 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 6 name
+2018-11-21 12:05:33,304 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 12:05:33,713 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 12:05:33,713 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 12:05:33,714 - logger_myOtherLogger - INFO - main : 50 - Threaded Categories received in 1.2252521514892578 seconds 
+
+2018-11-21 12:05:39,480 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 12:05:39,481 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 12:05:40,669 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 12:05:40,669 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 12:05:41,591 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 12:05:41,591 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 12:05:42,819 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 12:05:42,819 - logger_myOtherLogger - INFO - main : 19 - Unthreaded Categories received in 3.338636875152588 seconds 
+
+2018-11-21 12:05:42,819 - logger_myOtherLogger - INFO - main : 21 - Getting categories threaded
+2018-11-21 12:05:42,820 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 12:05:42,821 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 12:05:42,822 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 12:05:42,824 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 4 name
+2018-11-21 12:05:42,825 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 5 name
+2018-11-21 12:05:42,827 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 6 name
+2018-11-21 12:05:43,661 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 5 name is: Leia Organa
+2018-11-21 12:05:43,694 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 12:05:43,933 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 12:05:44,104 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 4 name is: Darth Vader
+2018-11-21 12:05:44,228 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 12:05:44,558 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 6 name is: Owen Lars
+2018-11-21 12:05:44,558 - logger_myOtherLogger - INFO - main : 50 - Threaded Categories received in 1.738581895828247 seconds 
+
+2018-11-21 12:07:03,234 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 12:07:03,235 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 12:07:04,485 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 12:07:04,486 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 12:07:05,918 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 12:07:05,918 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 12:07:07,044 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 12:07:07,044 - logger_myOtherLogger - DEBUG - main : 18 - Getting person number 1 name
+2018-11-21 12:07:08,374 - logger_myOtherLogger - DEBUG - main : 20 - Planet number 1 name is: Luke Skywalker
+2018-11-21 12:07:08,374 - logger_myOtherLogger - DEBUG - main : 18 - Getting person number 2 name
+2018-11-21 12:07:09,602 - logger_myOtherLogger - DEBUG - main : 20 - Planet number 2 name is: C-3PO
+2018-11-21 12:07:09,602 - logger_myOtherLogger - DEBUG - main : 18 - Getting person number 3 name
+2018-11-21 12:07:11,240 - logger_myOtherLogger - DEBUG - main : 20 - Planet number 3 name is: R2-D2
+2018-11-21 12:07:11,240 - logger_myOtherLogger - INFO - main : 24 - Unthreaded Categories received in 8.005630016326904 seconds 
+
+2018-11-21 12:07:11,240 - logger_myOtherLogger - INFO - main : 26 - Getting categories threaded
+2018-11-21 12:07:11,240 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 12:07:11,242 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 12:07:11,243 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 12:07:11,244 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 4 name
+2018-11-21 12:07:11,248 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 5 name
+2018-11-21 12:07:11,248 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 6 name
+2018-11-21 12:07:12,074 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 12:07:12,102 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 12:07:12,672 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 5 name is: Leia Organa
+2018-11-21 12:07:12,716 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 6 name is: Owen Lars
+2018-11-21 12:07:12,728 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 4 name is: Darth Vader
+2018-11-21 12:07:12,892 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 12:07:12,893 - logger_myOtherLogger - INFO - main : 55 - Threaded Categories received in 1.6531951427459717 seconds 
+
+2018-11-21 12:23:58,127 - logger_myOtherLogger - INFO - main : 11 - Getting categories unthreaded
+2018-11-21 12:23:58,127 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 1 name
+2018-11-21 12:23:59,482 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 1 name is: Tatooine
+2018-11-21 12:23:59,482 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 2 name
+2018-11-21 12:24:00,608 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 2 name is: Alderaan
+2018-11-21 12:24:00,609 - logger_myOtherLogger - DEBUG - main : 13 - Getting planet number 3 name
+2018-11-21 12:24:01,734 - logger_myOtherLogger - DEBUG - main : 15 - Planet number 3 name is: Yavin IV
+2018-11-21 12:24:01,734 - logger_myOtherLogger - DEBUG - main : 18 - Getting person number 1 name
+2018-11-21 12:24:02,859 - logger_myOtherLogger - DEBUG - main : 20 - Planet number 1 name is: Luke Skywalker
+2018-11-21 12:24:02,859 - logger_myOtherLogger - DEBUG - main : 18 - Getting person number 2 name
+2018-11-21 12:24:03,699 - logger_myOtherLogger - DEBUG - main : 20 - Planet number 2 name is: C-3PO
+2018-11-21 12:24:03,699 - logger_myOtherLogger - DEBUG - main : 18 - Getting person number 3 name
+2018-11-21 12:24:04,907 - logger_myOtherLogger - DEBUG - main : 20 - Planet number 3 name is: R2-D2
+2018-11-21 12:24:04,908 - logger_myOtherLogger - INFO - main : 24 - Unthreaded Categories received in 6.780972003936768 seconds 
+
+2018-11-21 12:24:04,908 - logger_myOtherLogger - INFO - main : 26 - Getting categories threaded
+2018-11-21 12:24:04,908 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 1 name
+2018-11-21 12:24:04,909 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 2 name
+2018-11-21 12:24:04,911 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting planet number 3 name
+2018-11-21 12:24:04,918 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 4 name
+2018-11-21 12:24:04,919 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 5 name
+2018-11-21 12:24:04,919 - logger_myOtherLogger - DEBUG - category_thread : 30 - Getting person number 6 name
+2018-11-21 12:24:05,732 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 1 name is: Tatooine
+2018-11-21 12:24:05,810 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 6 name is: Owen Lars
+2018-11-21 12:24:06,002 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 4 name is: Darth Vader
+2018-11-21 12:24:06,040 - logger_myOtherLogger - DEBUG - category_thread : 34 - category person number 5 name is: Leia Organa
+2018-11-21 12:24:06,060 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 2 name is: Alderaan
+2018-11-21 12:24:06,120 - logger_myOtherLogger - DEBUG - category_thread : 34 - category planet number 3 name is: Yavin IV
+2018-11-21 12:24:06,120 - logger_myOtherLogger - INFO - main : 55 - Threaded Categories received in 1.2123000621795654 seconds 
