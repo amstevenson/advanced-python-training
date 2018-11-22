@@ -2,9 +2,9 @@
 
 Advanced python training course.
 
-Training routes encompass material from the course that are contained within the examples folder. Everything outside 
-of that folder is not related to the course with the exception of the final task, which involves me setting 
-up some routes on this custom project I have made. 
+Training routes encompass material from the course that are contained within the examples folder. 
+
+Everything outside of that folder (including the flask project files (manage.py etc) and the venv setup below) is not related to the course with the exception of the final task, which involves me setting up some routes to show some kittens and the weather.
 
 Game route (ORM etc) encompasses me playing around with ORM and is separate to the course. 
 
