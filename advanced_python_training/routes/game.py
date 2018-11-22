@@ -47,9 +47,9 @@ def all_games():
         model_games = Game().get_all()
 
         games = []
-        for model_game in model_games:
-            game_json = {'name': model_game.name, 'rating': model_game.rating, 'genre': model_game.genre}
-            games.append(game_json)
+        [games.append({'name': model_game.name,
+                       'rating': model_game.rating,
+                       'genre': model_game.genre}) for model_game in model_games]
 
         return Response(response=json.dumps({'games': games}),
                         mimetype='application/json',

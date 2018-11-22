@@ -2,57 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcdb659-d381-4626-9c73-0d04c32d43dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced_python_training/routes/training.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_training/routes/training.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/__init__.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/tests/unit_tests/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/app.py" afterPath="$PROJECT_DIR$/advanced_python_training/app.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/blueprints.py" afterPath="$PROJECT_DIR$/advanced_python_training/blueprints.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/config.py" afterPath="$PROJECT_DIR$/advanced_python_training/config.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/__init__.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/tests/integration_tests/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch2Classes/bank_account.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/bank_account.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch2Classes/employee.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/employee.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch2Classes/exception_handling.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/exception_handling.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch2Classes/person.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/person.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch3functional/dec1.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch3functional/dec1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch3functional/gen1.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch3functional/gen1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch4Logging/l1.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch4Logging/l1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch4Logging/logging.conf" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch4Logging/logging.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch4Logging/logs/mylog.log" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch4Logging/logs/mylog.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch6Multithreading/exercise.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch6Multithreading/exercise.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch6Multithreading/queue_example.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch6Multithreading/queue_example.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch6Multithreading/t1.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch6Multithreading/t1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch6Multithreading/t2.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch6Multithreading/t2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch8networking/email.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch8networking/email.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch8networking/textfile.txt" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch8networking/textfile.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch9UnitTesting/__init__.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/tests/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch9UnitTesting/bank_account.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch9UnitTesting/bank_account.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch9UnitTesting/myClasses.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch9UnitTesting/myClasses.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch9UnitTesting/test_bank_account.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch9UnitTesting/test_bank_account.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch9UnitTesting/u-doc-test.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch9UnitTesting/u-doc-test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch9UnitTesting/unitTest.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch9UnitTesting/unitTest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/ch9UnitTesting/weather.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch9UnitTesting/weather.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/__init__.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/swapi/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/logger.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/logger.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/logging.conf" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/logging.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/logs/mylog.log" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/logs/mylog.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/main.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/swapi/__init__.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/swapi/category_api_client.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/swapi/category_api_client.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/swapi/category_thread.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/swapi/category_thread.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/tests/__init__.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/ch9UnitTesting/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/tests/integration_tests/__init__.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/tests/integration_tests/test_category_api.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/tests/integration_tests/test_category_api.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/tests/unit_tests/__init__.py" afterPath="$PROJECT_DIR$/advanced_python_training/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/examples/swapi_exercise/tests/unit_tests/test_category_api.py" afterPath="$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/tests/unit_tests/test_category_api.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/logconfig.py" afterPath="$PROJECT_DIR$/advanced_python_training/logconfig.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/main.py" afterPath="$PROJECT_DIR$/advanced_python_training/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python_training/routes/health.py" afterPath="$PROJECT_DIR$/advanced_python_training/routes/health.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced_python_training/routes/game.py" afterPath="$PROJECT_DIR$/advanced_python_training/routes/game.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_logging.log" afterPath="$PROJECT_DIR$/python_logging.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="advanced-python-training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,23 +24,11 @@
     <favorites_list name="advanced-python-training" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="training.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced_python_training/routes/training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced_python_training/routes/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
+            <state relative-caret-position="990">
               <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
@@ -96,33 +37,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m1.py">
+      <file leaf-file-name="m2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced_python_training/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="306">
+              <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="python_logging.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_logging.log">
+      <file leaf-file-name="queue_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/queue_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#63#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch8networking/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listener.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch8networking/listener.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#167#214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consumer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/consumer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/Task.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,8 +118,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-163">
-                <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <first_editor relative-caret-position="180">
+                <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="85" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -150,38 +127,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="health.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced_python_training/routes/health.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced_python_training/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logconfig.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced_python_training/logconfig.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -244,10 +201,16 @@
         <option value="$PROJECT_DIR$/advanced_python_training/routes/training.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/advanced_python_training/models.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/python_logging.log" />
         <option value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m1.py" />
+        <option value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m2.py" />
+        <option value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/consumer.py" />
+        <option value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/Task.py" />
         <option value="$PROJECT_DIR$/advanced_python_training/routes/game.py" />
+        <option value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/queue_example.py" />
+        <option value="$PROJECT_DIR$/advanced_python_training/examples/ch8networking/client.py" />
+        <option value="$PROJECT_DIR$/advanced_python_training/examples/ch8networking/listener.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -281,6 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -399,59 +364,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ch8networking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-python-training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-python-training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced_python_training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ch7Multiprocessing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python/demos/Flask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Python.m1">
-    <configuration default="false" name="regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_training/examples/ch5RegExpressions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="advanced-python-training" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_training/examples/ch5RegExpressions/regex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="exercise" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_training/examples/ch5RegExpressions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="advanced-python-training" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_training/examples/ch5RegExpressions/exercise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.queue_example">
     <configuration default="false" name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -499,6 +450,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="advanced-python-training" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="m2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="advanced-python-training" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="queue_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="advanced-python-training" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/queue_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -940,19 +925,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.regex" />
-      <item index="1" class="java.lang.String" itemvalue="Python.exercise" />
-      <item index="2" class="java.lang.String" itemvalue="Python.app" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.m1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.app" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.m1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.m2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.queue_example" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.m1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.app" />
-        <item index="3" class="java.lang.String" itemvalue="Python.exercise" />
-        <item index="4" class="java.lang.String" itemvalue="Python.regex" />
+        <item index="0" class="java.lang.String" itemvalue="Python.queue_example" />
+        <item index="1" class="java.lang.String" itemvalue="Python.m2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.m1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -978,29 +963,29 @@
     <frame x="0" y="22" width="1280" height="710" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1019,262 +1004,68 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/logs/mylog.log">
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/routes/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="326" column="0" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch5RegExpressions/regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch5RegExpressions/exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/person.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/exception_handling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/employee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/bank_account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="990">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="e#0#93#0" expanded="false" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/templates/test_page.html">
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_training/templates/greeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch11Flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
           <folding>
-            <marker date="1542814699830" expanded="true" signature="231:261" ph="..." />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/__init__.py">
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/queue_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#63#85#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/alembic.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/config.py">
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch8networking/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch8networking/listener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#167#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/Task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/swapi/category_api_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/swapi/category_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/versions/c77121166349_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch3functional/dec1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch3functional/gen1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/blueprints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythontraining.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/logconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_python_training/routes/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_logging.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1298,9 +1089,9 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-163">
-            <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1315,13 +1106,317 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/logs/mylog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="326" column="0" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch5RegExpressions/regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch5RegExpressions/exercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/exception_handling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/employee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch2Classes/bank_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/templates/test_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_training/templates/greeting.html" />
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch11Flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/alembic.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/swapi/category_api_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/swapi_exercise/swapi/category_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/versions/c77121166349_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch3functional/dec1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch3functional/gen1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythontraining.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/logconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/routes/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_logging.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/routes/health.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/m2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/Task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/advanced_python_training/routes/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
+        <state relative-caret-position="990">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch7Multiprocessing/queue_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#63#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch8networking/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_python_training/examples/ch8networking/listener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#167#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="85" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

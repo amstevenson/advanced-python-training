@@ -36,9 +36,14 @@ With purely docker (go to main directory):
 1) docker build -t python_training .
 2) docker run -p 8080:80 python_training
 
+### Random kitten and weather requests using forms
+
 ### Example ORM requests (using 'game' blueprint/routes)
 
 ## Add a  game
 
 `curl -X POST -d '{"name": "ok", "rating": "6", "genre": "test"}' -H 'Content-Type: application/json' http://localhost:5000/add-game`
 
+## Get all games 
+
+`curl localhost:5000/all-games`
