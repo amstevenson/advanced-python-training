@@ -131,3 +131,887 @@ TypeError: The view function did not return a valid response. The function eithe
 2018-11-22 11:56:02,833 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 11:56:02] "GET / HTTP/1.1" 404 -
 2018-11-22 11:56:05,394 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 11:56:05] "GET /health HTTP/1.1" 200 -
 2018-11-22 11:56:08,579 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 11:56:08] "GET /all-games HTTP/1.1" 200 -
+2018-11-22 12:17:54,445 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:18:22,068 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:18:22,192 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-22 12:18:31,707 - flask.app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py", line 13, in index
+    return render_template('index.html')
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/templates/index.html", line 6, in top-level template code
+    <form method="get" action="{{ url_for('training.get_weather') }}" id="contact-form" enctype='multipart/form-data'>
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/werkzeug/routing.py", line 1776, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'training.get_weather'. Did you forget to specify values ['city', 'country']?
+2018-11-22 12:18:31,711 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:18:31] "GET / HTTP/1.1" 500 -
+2018-11-22 12:19:01,670 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:19:01,737 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-22 12:19:04,560 - flask.app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py", line 13, in index
+    return render_template('index.html')
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/templates/index.html", line 6, in top-level template code
+    <form method="get" action="{{ url_for('training.get_weather') }}" id="contact-form" enctype='multipart/form-data'>
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/werkzeug/routing.py", line 1776, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'training.get_weather'. Did you forget to specify values ['city', 'country']?
+2018-11-22 12:19:04,566 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:19:04] "GET / HTTP/1.1" 500 -
+2018-11-22 12:19:26,398 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:19:26,469 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-22 12:19:27,563 - flask.app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py", line 14, in index
+    return render_template('index.html')
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/templates/index.html", line 6, in top-level template code
+    <form method="get" action="{{ url_for('training.get_weather') }}" id="contact-form" enctype='multipart/form-data'>
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/werkzeug/routing.py", line 1776, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'training.get_weather'. Did you forget to specify values ['city', 'country']?
+2018-11-22 12:19:27,567 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:19:27] "GET / HTTP/1.1" 500 -
+2018-11-22 12:20:14,194 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:20:14,263 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-22 12:20:15,357 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:20:15] "GET / HTTP/1.1" 404 -
+2018-11-22 12:20:17,732 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:20:17] "GET /test-page/test HTTP/1.1" 200 -
+2018-11-22 12:20:20,247 - flask.app - ERROR - Exception on /t [GET]
+Traceback (most recent call last):
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py", line 13, in index
+    return render_template('index.html')
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/templates/index.html", line 6, in top-level template code
+    <form method="get" action="{{ url_for('training.get_weather') }}" id="contact-form" enctype='multipart/form-data'>
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/werkzeug/routing.py", line 1776, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'training.get_weather'. Did you forget to specify values ['city', 'country']?
+2018-11-22 12:20:20,255 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:20:20] "GET /t HTTP/1.1" 500 -
+2018-11-22 12:21:22,694 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:21:22,768 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-22 12:21:25,419 - flask.app - ERROR - Exception on /t [GET]
+Traceback (most recent call last):
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py", line 13, in index
+    return render_template('index.html')
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/templates/index.html", line 9, in top-level template code
+    <form method="get" action="{{ url_for('training.get_weather') }}" id="contact-form" enctype='multipart/form-data'>
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/werkzeug/routing.py", line 1776, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'training.get_weather'. Did you forget to specify values ['city', 'country']?
+2018-11-22 12:21:25,422 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:21:25] "GET /t HTTP/1.1" 500 -
+2018-11-22 12:21:33,757 - flask.app - ERROR - Exception on /t [GET]
+Traceback (most recent call last):
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py", line 13, in index
+    return render_template('index.html')
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/templates/index.html", line 9, in top-level template code
+    <form method="get" action="" id="contact-form" enctype='multipart/form-data'>
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/werkzeug/routing.py", line 1776, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'training.get_weather'. Did you forget to specify values ['city', 'country']?
+2018-11-22 12:21:33,760 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:21:33] "GET /t HTTP/1.1" 500 -
+2018-11-22 12:21:34,453 - flask.app - ERROR - Exception on /t [GET]
+Traceback (most recent call last):
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py", line 13, in index
+    return render_template('index.html')
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/templates/index.html", line 9, in top-level template code
+    <form method="get" action="" id="contact-form" enctype='multipart/form-data'>
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/Users/adam/repos/training/advanced-python-training/advanced-python-training/venv/lib/python3.5/site-packages/werkzeug/routing.py", line 1776, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'training.get_weather'. Did you forget to specify values ['city', 'country']?
+2018-11-22 12:21:34,454 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:21:34] "GET /t HTTP/1.1" 500 -
+2018-11-22 12:21:37,271 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:21:37,339 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-22 12:21:37,924 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:21:37] "GET /t HTTP/1.1" 200 -
+2018-11-22 12:22:21,800 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:22:21] "GET /t HTTP/1.1" 200 -
+2018-11-22 12:22:22,593 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:22:22] "GET /t HTTP/1.1" 200 -
+2018-11-22 12:23:59,291 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:23:59,355 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-22 12:24:42,526 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:24:43,194 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:26:01,898 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:26:01] "GET /t HTTP/1.1" 500 -
+2018-11-22 12:26:01,922 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:26:01] "GET /t?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 12:26:01,927 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:26:01] "GET /t?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 12:26:01,932 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:26:01] "GET /t?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 12:26:01,986 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:26:01] "GET /t?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 12:26:02,106 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:26:02] "GET /t?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 12:26:02,205 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:26:02] "GET /t?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 12:28:22,717 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:28:22,931 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:28:23,701 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:28:37,020 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:28:37,117 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:28:38,107 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:28:42,245 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:28:42,344 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:28:43,306 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:29:29,237 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:29:29,349 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:29:30,209 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:29:57,840 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:29:57,936 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:29:58,678 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:30:02,840 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:30:03,527 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:30:07,266 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:30:07] "GET /t HTTP/1.1" 200 -
+2018-11-22 12:30:11,587 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:30:11] "GET /weather?city=tes&country=tesss HTTP/1.1" 405 -
+2018-11-22 12:30:24,445 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:30:25,319 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:30:25,402 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:30:25] "GET /weather?city=tes&country=tesss HTTP/1.1" 405 -
+2018-11-22 12:30:28,049 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:30:28] "GET / HTTP/1.1" 404 -
+2018-11-22 12:30:30,946 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:30:30] "GET /t HTTP/1.1" 200 -
+2018-11-22 12:30:33,571 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 12:30:33,671 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=ttt,ttttt&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 404 40
+2018-11-22 12:30:33,672 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:30:33] "POST /weather HTTP/1.1" 200 -
+2018-11-22 12:30:52,961 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:30:53,083 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:30:54,075 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:30:55,291 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 12:30:55,367 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=ttt,ttttt&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 404 40
+2018-11-22 12:30:55,369 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:30:55] "POST /weather HTTP/1.1" 200 -
+2018-11-22 12:31:10,473 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:31:10,589 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:31:11,354 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:31:12,877 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:31:12] "GET / HTTP/1.1" 200 -
+2018-11-22 12:31:25,370 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 12:31:25,445 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 12:31:25,446 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:31:25] "POST /weather HTTP/1.1" 200 -
+2018-11-22 12:32:20,891 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:32:20,981 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:32:22,036 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:32:24,119 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:32:24,244 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:32:25,334 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:32:27,438 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:32:27,599 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:32:28,489 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:32:38,471 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:32:38] "GET / HTTP/1.1" 200 -
+2018-11-22 12:32:44,349 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 12:32:44,433 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 12:32:44,435 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:32:44] "POST /weather HTTP/1.1" 200 -
+2018-11-22 12:33:05,264 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:33:05,505 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:33:06,424 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:33:10,541 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 12:33:10,725 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 12:33:11,518 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 12:33:13,674 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 12:33:13,754 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 12:33:13,756 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 12:33:13] "POST /weather HTTP/1.1" 200 -
+2018-11-22 13:30:07,296 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:30:07,405 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:30:08,372 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:30:47,049 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:30:47] "GET / HTTP/1.1" 500 -
+2018-11-22 13:30:47,069 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:30:47] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:30:47,080 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:30:47] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:30:47,090 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:30:47] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:30:47,143 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:30:47] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:30:47,204 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:30:47] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:30:47,298 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:30:47] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:31:10,780 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:31:10,893 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:31:11,804 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:31:16,984 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:31:17,077 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:31:18,029 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:31:29,338 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:31:29,461 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:31:30,316 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:31:30,650 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:30] "GET / HTTP/1.1" 500 -
+2018-11-22 13:31:30,682 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:30] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:31:30,700 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:30] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:31:30,700 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:30] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:31:30,750 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:30] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:31:30,788 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:31:30,885 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:31:31,844 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:31] "GET / HTTP/1.1" 500 -
+2018-11-22 13:31:31,883 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:31] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:31:31,888 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:31] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:31:31,902 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:31] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:31:31,956 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:31] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:31:31,981 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:31:32,049 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:32] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:31:37,522 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:31:37,680 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:31:38,750 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:31:38,822 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:38] "GET / HTTP/1.1" 200 -
+2018-11-22 13:31:55,452 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:31:55] "GET / HTTP/1.1" 200 -
+2018-11-22 13:32:14,481 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:32:14] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:34:33,682 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:34:33,788 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:34:34,620 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:34:49,017 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:34:49,181 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:34:50,031 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:34:55,111 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:34:55] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:34:59,668 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:34:59] "GET / HTTP/1.1" 200 -
+2018-11-22 13:35:03,396 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:35:03] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:37:13,361 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:13] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 13:37:13,394 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:13] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:37:13,399 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:13] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:37:13,403 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:13] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:37:13,535 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:13] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:37:13,600 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:13] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:37:13,676 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:13] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:37:28,642 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:28] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 13:37:28,672 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:28] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:37:28,679 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:28] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:37:28,685 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:28] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:37:28,727 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:28] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:37:28,806 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:28] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:37:28,912 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:28] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:37:38,349 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:37:38] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:37:59,036 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:37:59,161 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:38:00,081 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:38:08,912 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:38:08] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:38:25,611 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:38:25] "GET / HTTP/1.1" 200 -
+2018-11-22 13:38:28,652 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:38:28] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:38:55,386 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:38:55,713 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:38:56,545 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:38:57,138 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:38:57] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:39:00,742 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:39:00] "GET / HTTP/1.1" 200 -
+2018-11-22 13:39:03,025 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:39:03] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:39:32,291 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:39:32] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:39:46,318 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:39:46] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:39:57,673 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:39:57] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:40:09,725 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:40:09] "GET / HTTP/1.1" 200 -
+2018-11-22 13:40:17,599 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:40:17] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 13:41:15,600 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:41:15,691 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:41:16,549 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:42:56,572 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:42:56,657 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:42:57,432 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:43:35,186 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:43:35,288 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:43:36,187 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:44:29,897 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:29] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 13:44:29,940 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:29] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:44:29,943 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:29] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:44:29,944 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:29] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:44:30,051 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:30] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:44:30,084 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:30] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:44:30,171 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:30] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:44:32,650 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:32] "GET / HTTP/1.1" 200 -
+2018-11-22 13:44:38,134 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:44:38,238 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 13:44:38,241 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:38] "POST /weather HTTP/1.1" 200 -
+2018-11-22 13:44:40,917 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:44:41,079 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=d,d&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 404 40
+2018-11-22 13:44:41,087 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:41] "POST /weather HTTP/1.1" 500 -
+2018-11-22 13:44:41,113 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:41] "GET /weather?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:44:41,121 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:41] "GET /weather?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:44:41,144 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:41] "GET /weather?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:44:41,183 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:41] "GET /weather?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:44:41,226 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:41] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:44:41,300 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:44:41] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:45:27,492 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:45:27,729 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:45:28,561 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:46:46,066 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:46] "POST /weather HTTP/1.1" 500 -
+2018-11-22 13:46:46,091 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:46] "GET /weather?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:46:46,097 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:46] "GET /weather?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:46:46,106 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:46] "GET /weather?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:46:46,151 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:46] "GET /weather?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:46:46,174 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:46] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:46:46,239 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:46] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:46:48,617 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:48] "GET / HTTP/1.1" 200 -
+2018-11-22 13:46:52,547 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:46:52,631 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 13:46:52,633 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:46:52] "POST /weather HTTP/1.1" 200 -
+2018-11-22 13:47:12,442 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:47:12,535 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:47:13,222 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:47:29,598 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:47:29,725 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:47:30,477 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:47:38,735 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:47:38,828 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:47:39,881 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:47:46,053 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:47:46,157 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:47:47,009 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:48:08,514 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:48:08,674 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:48:09,503 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:49:08,794 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:08] "GET / HTTP/1.1" 500 -
+2018-11-22 13:49:09,079 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:49:09,080 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:09] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:49:09,080 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:49:09,130 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:09] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:49:09,195 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:49:09,290 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:49:24,597 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:24] "GET / HTTP/1.1" 200 -
+2018-11-22 13:49:28,865 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:49:28,937 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 13:49:28,949 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:28] "POST /weather HTTP/1.1" 500 -
+2018-11-22 13:49:28,972 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:28] "GET /weather?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:49:28,978 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:28] "GET /weather?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:49:28,979 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:28] "GET /weather?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:49:29,040 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:29] "GET /weather?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:49:29,087 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:29] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:49:29,158 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:49:29] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:50:11,221 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:50:11,399 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:50:12,264 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:50:15,715 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:50:15] "GET / HTTP/1.1" 200 -
+2018-11-22 13:50:19,210 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:50:19,285 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 13:50:19,294 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:50:19] "POST /weather HTTP/1.1" 500 -
+2018-11-22 13:50:19,315 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:50:19] "GET /weather?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:50:19,322 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:50:19] "GET /weather?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:50:19,326 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:50:19] "GET /weather?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:50:19,371 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:50:19] "GET /weather?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:50:19,415 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:50:19] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:50:47,073 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:50:47,297 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:50:48,158 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:50:58,499 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:50:58] "GET / HTTP/1.1" 200 -
+2018-11-22 13:51:04,178 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:51:04,253 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 13:51:04,255 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:51:04] "POST /weather HTTP/1.1" 200 -
+2018-11-22 13:51:32,496 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:51:33,156 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:51:41,382 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:51:41,458 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 13:51:41,469 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:51:41] "POST /weather HTTP/1.1" 200 -
+2018-11-22 13:51:44,408 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:51:44,507 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=,&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 404 40
+2018-11-22 13:51:44,509 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:51:44] "POST /weather HTTP/1.1" 200 -
+2018-11-22 13:51:48,665 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:51:48,743 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=tes,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 404 40
+2018-11-22 13:51:48,745 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:51:48] "POST /weather HTTP/1.1" 200 -
+2018-11-22 13:51:53,771 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:51:53,869 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Hull,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 562
+2018-11-22 13:51:53,871 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:51:53] "POST /weather HTTP/1.1" 200 -
+2018-11-22 13:55:23,826 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 13:55:23,912 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 13:55:24,928 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 13:58:40,673 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:58:40] "POST /weather HTTP/1.1" 500 -
+2018-11-22 13:58:40,697 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:58:40] "GET /weather?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:58:40,701 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:58:40] "GET /weather?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:58:40,704 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:58:40] "GET /weather?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:58:40,740 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:58:40] "GET /weather?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:58:40,761 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:58:40] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:58:40,813 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:58:40] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:59:01,044 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:59:01,117 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Hull,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 562
+2018-11-22 13:59:01,156 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:01] "POST /weather HTTP/1.1" 500 -
+2018-11-22 13:59:01,200 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:01] "GET /weather?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:59:01,210 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:01] "GET /weather?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:59:01,211 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:01] "GET /weather?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:59:01,265 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:01] "GET /weather?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:59:01,326 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:01] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:59:01,405 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:01] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:59:24,412 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:59:24,485 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Hull,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 562
+2018-11-22 13:59:24,504 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:24] "POST /weather HTTP/1.1" 500 -
+2018-11-22 13:59:24,525 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:24] "GET /weather?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 13:59:24,532 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:24] "GET /weather?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 13:59:24,533 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:24] "GET /weather?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 13:59:24,579 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:24] "GET /weather?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 13:59:24,663 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:24] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:59:24,740 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:24] "GET /weather?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 13:59:35,960 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 13:59:36,032 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Hull,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 562
+2018-11-22 13:59:36,040 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 13:59:36] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:00:44,384 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:00:44,457 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Hull,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 562
+2018-11-22 14:00:44,462 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:00:44] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:01:10,730 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:01:11,634 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:01:26,075 - werkzeug - ERROR - 127.0.0.1 - - [22/Nov/2018 14:01:26] code 400, message Bad request version ('\x80KD\x9bÇ\x13¹\x06\x068çÝ¿\x98Þ5\x08Ôï0¡ìê\x9d\x942ÆÓã\x93aP\x00"\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+2018-11-22 14:01:26,076 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:26] "  üiÞoEaæI¡±ÖðO ¡¿ 3Ö)ut#ÞU% KDÇ¹8çÝ¿Þ5Ôï0¡ìê2ÆÓãaP "À+À/À,À0Ì©Ì¨ÀÀ   / 5 " HTTPStatus.BAD_REQUEST -
+2018-11-22 14:01:26,080 - werkzeug - ERROR - 127.0.0.1 - - [22/Nov/2018 14:01:26] code 400, message Bad request version ('çï\x94A[\x86X\x01\x8c}\x02A°\x02~tEb\x8bUí:à<)è¦hÓÄÌ\x00"ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+2018-11-22 14:01:26,082 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:26] "  ü¦ú`h{t±-J¥þ=?:öëø,Ú\G çïA[X}A°~tEbUí:à<)è¦hÓÄÌ "ÚÚÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 " HTTPStatus.BAD_REQUEST -
+2018-11-22 14:01:26,083 - werkzeug - ERROR - 127.0.0.1 - - [22/Nov/2018 14:01:26] code 400, message Bad request version ('JJÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+2018-11-22 14:01:26,084 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:26] " Ë  Çuu"6R¥èGMÂ#<¨ýuÂrG!·eiò  JJÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 " HTTPStatus.BAD_REQUEST -
+2018-11-22 14:01:32,623 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:32] "GET / HTTP/1.1" 200 -
+2018-11-22 14:01:39,898 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:39] "GET / HTTP/1.1" 200 -
+2018-11-22 14:01:43,459 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:01:43,535 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 14:01:43,537 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:43] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:01:44,652 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:44] "GET //get-weather-map HTTP/1.1" 301 -
+2018-11-22 14:01:44,661 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:44] "GET / HTTP/1.1" 200 -
+2018-11-22 14:01:44,892 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:01:44] "GET /favicon.ico HTTP/1.1" 404 -
+2018-11-22 14:02:24,168 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:02:24,380 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:02:25,160 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:02:27,562 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:02:27] "GET / HTTP/1.1" 200 -
+2018-11-22 14:02:31,598 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:02:31,673 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 14:02:31,675 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:02:31] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:02:32,382 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:02:32] "GET / HTTP/1.1" 200 -
+2018-11-22 14:03:19,243 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:19] "GET / HTTP/1.1" 200 -
+2018-11-22 14:03:21,856 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:03:21,934 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 14:03:21,936 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:21] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:03:22,822 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:22] "GET /kitten HTTP/1.1" 405 -
+2018-11-22 14:03:30,264 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:30] "GET /weather-map HTTP/1.1" 404 -
+2018-11-22 14:03:33,803 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:33] "GET /get-weather-map HTTP/1.1" 200 -
+2018-11-22 14:03:44,153 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:44] "GET / HTTP/1.1" 200 -
+2018-11-22 14:03:47,287 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:03:47,363 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 14:03:47,364 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:47] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:03:48,258 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:48] "GET /get-weather-map HTTP/1.1" 200 -
+2018-11-22 14:03:51,643 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:03:51] "GET / HTTP/1.1" 200 -
+2018-11-22 14:04:39,379 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:04:39,453 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 14:04:39,454 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:04:39] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:04:47,794 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:04:47] "GET /get-weather-map HTTP/1.1" 200 -
+2018-11-22 14:05:49,861 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:05:49] "GET / HTTP/1.1" 200 -
+2018-11-22 14:05:52,885 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:05:52,958 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 14:05:52,960 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:05:52] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:05:57,047 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:05:57] "GET /get-weather-map?lon=-4.14&lat=50.37 HTTP/1.1" 200 -
+2018-11-22 14:07:42,755 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:07:42,892 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:07:43,698 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:09:15,912 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:15] "GET / HTTP/1.1" 500 -
+2018-11-22 14:09:16,111 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:16] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 14:09:16,134 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:16] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 14:09:16,141 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:16] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 14:09:16,190 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:16] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 14:09:16,244 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:16] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:09:16,309 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:16] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:09:45,246 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:09:45,920 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:09:47,965 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:47] "GET / HTTP/1.1" 200 -
+2018-11-22 14:09:51,965 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:09:52,041 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 14:09:52,043 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:52] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:09:53,151 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:09:53] "GET /get-weather-map?lon=-4.14&lat=50.37 HTTP/1.1" 200 -
+2018-11-22 14:10:00,194 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:10:00] "GET / HTTP/1.1" 200 -
+2018-11-22 14:10:05,053 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:10:07,078 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Hull,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 562
+2018-11-22 14:10:07,081 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:10:07] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:10:08,473 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:10:08] "GET /get-weather-map?lon=-0.34&lat=53.74 HTTP/1.1" 200 -
+2018-11-22 14:10:24,738 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:10:24] "GET / HTTP/1.1" 200 -
+2018-11-22 14:10:34,966 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:10:34] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:10:45,641 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:10:45] "GET / HTTP/1.1" 200 -
+2018-11-22 14:10:50,132 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:10:50] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:11:35,016 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:11:35] "GET / HTTP/1.1" 200 -
+2018-11-22 14:11:42,849 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:11:42,933 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 436
+2018-11-22 14:11:42,935 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:11:42] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:11:48,030 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:11:48,103 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Hull,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 562
+2018-11-22 14:11:48,105 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:11:48] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:16:29,883 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:16:29,956 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Hull,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 562
+2018-11-22 14:16:29,961 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:16:29] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:16:32,398 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:16:32] "GET / HTTP/1.1" 200 -
+2018-11-22 14:17:29,786 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:17:29] "GET / HTTP/1.1" 200 -
+2018-11-22 14:19:14,821 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:19:14] "GET / HTTP/1.1" 200 -
+2018-11-22 14:20:32,963 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:20:32] "GET / HTTP/1.1" 200 -
+2018-11-22 14:21:04,161 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:21:04] "GET / HTTP/1.1" 200 -
+2018-11-22 14:22:45,241 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:22:45] "GET / HTTP/1.1" 200 -
+2018-11-22 14:23:23,067 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:23:23] "GET / HTTP/1.1" 200 -
+2018-11-22 14:28:36,889 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:28:37,045 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:28:37,908 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:28:51,255 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:28:51,343 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:28:52,047 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:29:27,777 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:29:27,912 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:29:28,874 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:29:46,320 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:29:46,409 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:29:47,307 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:31:11,018 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:31:11,134 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:31:11,953 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:31:17,114 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:31:17,199 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:31:17,919 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:31:25,094 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:31:25,202 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:31:26,059 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:32:13,094 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:32:13,189 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:32:14,005 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:32:19,146 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:32:19,224 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:32:20,180 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:32:35,517 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:32:35,636 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:32:36,453 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:33:31,362 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:33:31] "GET / HTTP/1.1" 200 -
+2018-11-22 14:33:34,157 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:33:34] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 14:33:34,194 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:33:34] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 14:33:34,197 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:33:34] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 14:33:34,203 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:33:34] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 14:33:34,238 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:33:34] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 14:33:34,282 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:33:34] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:33:34,337 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:33:34] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:33:59,262 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:33:59,392 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:34:00,311 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:34:01,832 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:01] "GET / HTTP/1.1" 200 -
+2018-11-22 14:34:04,274 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:04] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 14:34:04,304 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:04] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 14:34:04,310 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:04] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 14:34:04,314 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:04] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 14:34:04,360 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:04] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 14:34:04,420 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:04] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:34:33,010 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:34:33,106 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:34:33,997 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:34:35,242 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:35] "GET / HTTP/1.1" 200 -
+2018-11-22 14:34:36,276 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:36] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 14:34:36,308 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:36] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 14:34:36,325 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:36] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 14:34:36,331 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:36] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 14:34:36,383 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:36] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 14:34:36,412 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:36] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:34:48,593 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:34:48] "GET / HTTP/1.1" 200 -
+2018-11-22 14:34:57,515 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:34:57,674 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:34:58,454 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:35:01,007 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:01] "GET / HTTP/1.1" 200 -
+2018-11-22 14:35:03,201 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:03] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:35:19,659 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:19] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:35:32,260 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:35:32,362 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:35:33,358 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:35:34,653 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:34] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 14:35:34,695 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:34] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 14:35:34,701 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:34] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 14:35:34,702 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:34] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 14:35:34,772 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:34] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 14:35:34,863 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:34] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:35:34,950 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:34] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:35:41,568 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:35:41,711 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:35:42,817 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:35:43,151 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:43] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:35:49,578 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:49] "GET / HTTP/1.1" 200 -
+2018-11-22 14:35:51,691 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:35:51] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:41:01,097 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:41:01,340 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:41:02,283 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:41:05,421 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:41:05,523 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:41:06,369 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:41:09,484 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:41:09,694 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:41:10,636 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:42:46,353 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:42:46] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:42:52,767 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:42:52] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:42:59,714 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:42:59] "GET / HTTP/1.1" 200 -
+2018-11-22 14:43:08,820 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:43:08] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:43:30,007 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:43:30] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:43:32,762 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:43:32] "GET / HTTP/1.1" 200 -
+2018-11-22 14:43:39,240 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:43:39] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:44:52,585 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:44:52] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:44:52,617 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:44:52] "GET /alt=%22nug HTTP/1.1" 404 -
+2018-11-22 14:45:20,738 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:20] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:45:20,764 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:20] "GET /alt=%22nug HTTP/1.1" 404 -
+2018-11-22 14:45:32,666 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:32] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:45:37,944 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:37] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 14:45:37,994 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:37] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 14:45:38,007 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:38] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 14:45:38,011 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:38] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 14:45:38,087 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:38] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 14:45:38,239 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:38] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:45:38,343 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:45:38] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:47:00,759 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:00] "GET / HTTP/1.1" 200 -
+2018-11-22 14:47:03,282 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:03] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:47:13,495 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:13] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:47:28,114 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:28] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:47:55,799 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:55] "POST /kitten HTTP/1.1" 500 -
+2018-11-22 14:47:55,828 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:55] "GET /kitten?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-22 14:47:55,843 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:55] "GET /kitten?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-22 14:47:55,844 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:55] "GET /kitten?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-22 14:47:55,933 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:55] "GET /kitten?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-22 14:47:56,044 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:56] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:47:56,133 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:47:56] "GET /kitten?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-22 14:48:19,434 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:48:19] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:48:29,511 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:48:29] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:48:35,733 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:48:35] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:48:38,792 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:48:38] "GET / HTTP/1.1" 200 -
+2018-11-22 14:48:41,853 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:48:41] "POST /kitten HTTP/1.1" 200 -
+2018-11-22 14:50:07,297 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:50:07,409 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:50:08,232 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:50:10,326 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:50:10,410 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:50:11,223 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:50:15,364 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:50:15,459 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:50:16,267 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:50:22,477 - werkzeug - INFO -  * Detected change in '/Users/adam/repos/training/advanced-python-training/advanced-python-training/advanced_python_training/routes/training.py', reloading
+2018-11-22 14:50:22,596 - werkzeug - INFO -  * Restarting with stat
+2018-11-22 14:50:23,402 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:52:53,680 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:52:53] "GET / HTTP/1.1" 200 -
+2018-11-22 14:52:57,088 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:52:57,182 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:52:57,184 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:52:57] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:54:31,017 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:54:31,089 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:54:31,095 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:54:31] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:54:32,539 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:54:32] "GET /get-weather-map?lon=-4.14&lat=50.37 HTTP/1.1" 200 -
+2018-11-22 14:54:36,017 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:54:36] "GET / HTTP/1.1" 200 -
+2018-11-22 14:54:40,056 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:54:40,129 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:54:40,131 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:54:40] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:54:55,661 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:54:56,435 - advanced_python_training.logconfig - INFO - Completed configuration of logger
+2018-11-22 14:54:58,541 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:54:58,612 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:54:58,621 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:54:58] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:55:01,153 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:55:01,228 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:55:01,229 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:55:01] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:55:46,171 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:55:46,244 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:55:46,249 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:55:46] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:55:48,259 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:55:48,332 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:55:48,334 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:55:48] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:55:51,164 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:55:51] "GET / HTTP/1.1" 200 -
+2018-11-22 14:55:57,331 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:55:57,405 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:55:57,407 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:55:57] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:56:48,029 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:56:48,102 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:56:48,108 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:56:48] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:56:50,914 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:56:50,987 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:56:50,988 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:56:50] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:56:55,299 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:56:55,373 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:56:55,375 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:56:55] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:57:56,724 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:57:56] "GET / HTTP/1.1" 200 -
+2018-11-22 14:57:59,081 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:57:59,163 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=,&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 404 40
+2018-11-22 14:57:59,165 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:57:59] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:58:11,885 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:58:11,960 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:58:11,962 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:58:11] "POST /weather HTTP/1.1" 200 -
+2018-11-22 14:58:22,810 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:58:22] "GET /get-weather-map?lon=-4.14&lat=50.37 HTTP/1.1" 200 -
+2018-11-22 14:58:44,906 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:58:44] "GET / HTTP/1.1" 200 -
+2018-11-22 14:58:48,964 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 14:58:49,039 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 14:58:49,041 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 14:58:49] "POST /weather HTTP/1.1" 200 -
+2018-11-22 15:00:38,040 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 15:00:38,113 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 15:00:38,119 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 15:00:38] "POST /weather HTTP/1.1" 200 -
+2018-11-22 15:01:06,903 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 15:01:06] "GET /get-weather-map?lon=-4.14&lat=50.37 HTTP/1.1" 200 -
+2018-11-22 15:01:27,448 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 15:01:27] "GET /get-weather-map?lon=-4.14&lat=50.37 HTTP/1.1" 200 -
+2018-11-22 15:01:30,402 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 15:01:30] "GET / HTTP/1.1" 200 -
+2018-11-22 15:01:33,315 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 15:01:33,407 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 15:01:33,408 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 15:01:33] "POST /weather HTTP/1.1" 200 -
+2018-11-22 15:01:41,760 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2018-11-22 15:01:41,836 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Plymouth,uk&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1 HTTP/1.1" 200 439
+2018-11-22 15:01:41,842 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 15:01:41] "POST /weather HTTP/1.1" 200 -
+2018-11-22 15:01:42,725 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 15:01:42] "GET /get-weather-map?lon=-4.14&lat=50.37 HTTP/1.1" 200 -
+2018-11-22 15:01:55,263 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2018 15:01:55] "GET / HTTP/1.1" 200 -

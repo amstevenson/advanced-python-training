@@ -1,0 +1,16 @@
+<html>
+<head>
+<body>
+
+    {% for number in range(10) %}
+
+    {% set new_size = size|int +number %}
+    {% set src = "http://placekitten.com/"+new_size|string+"/"+new_size|string %}
+
+    <img src={{src}} alt="nug picture">
+
+    {% endfor %}
+
+</body>
+</head>
+</html>

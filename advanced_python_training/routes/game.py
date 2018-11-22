@@ -1,3 +1,6 @@
+"""
+This is separate to the course, basically put in to show ORM
+"""
 from flask import Blueprint, Response, request
 from advanced_python_training.models import Game
 import logging

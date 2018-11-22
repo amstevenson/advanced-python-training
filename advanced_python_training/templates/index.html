@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+
+<body>
+
+    {% if error %}
+
+    <p>Error retrieving data</p>
+
+    {% endif %}
+
+    {% if temp %}
+
+    <p>Temperature is: {{ temp }} </p>
+    <p>Lat is: {{ lat }}</p>
+    <p>Long is: {{ lon }}</p>
+
+    <a href="http://www.localhost:5000/get-weather-map?lon={{lon}}&lat={{lat}}">View weather map</a>
+
+    <br>
+
+    {% endif %}
+
+    <form method="POST" action="{{ url_for('training.weather') }}" id="weather-form" enctype='multipart/form-data'>
+
+        <label for="city">Weather API - Get temperature</label>
+        <br>
+        <input type="text" name="city" id="city" placeholder="city">
+
+        <input type="text" name="country" id="country" placeholder="country">
+
+        <input type="submit" class="btn btn-primary btn-lg btn-block" value="Send">
+    </form>
+
+    <form method="POST" action="{{ url_for('training.kitten') }}" id="kitten-form" enctype='multipart/form-data'>
+
+        <label for="city">Kitten API - Get cute picture</label>
+        <br>
+        <input type="range" name="minRange" min="0" max="32" value="0" oninput="this.form.minInput.value=this.value" />
+        <input type="number" name="minInput" min="0" max="32" value="0" oninput="this.form.minRange.value=this.value" />
+
+        <input type="range" name="maxRange" min="200" max="640" value="200" oninput="this.form.maxInput.value=this.value" />
+        <input type="number" name="maxInput" min="200" max="640" value="200" oninput="this.form.maxRange.value=this.value" />
+
+        <input type="submit" class="btn btn-primary btn-lg btn-block" value="Send">
+    </form>
+
+</body>
+
+</html>

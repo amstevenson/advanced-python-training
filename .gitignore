@@ -1,3 +1,5 @@
 venv/*
 advanced_python_training/app.db
 .idea/*
+.idea/workspace.xml
+__pycache__*
